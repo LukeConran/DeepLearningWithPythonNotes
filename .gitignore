@@ -1,0 +1,55 @@
+# Virtual environments
+virtual/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Package / build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtualenv/venv config
+virtual/
+
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and model artifacts
+train_data/
+test_data/
+CatsDogsConvnet/cats_and_dogs_small/
+*.h5
+*.ckpt
+*.pth
+*.pt
+
+# Notebooks and outputs (optional)
+# *.nbconvert.ipynb
+
+# Logs, caches, test outputs
+*.log
+.pytest_cache/
+.mypy_cache/
+coverage/
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives (already present)
+test1.zip
+train.zip
